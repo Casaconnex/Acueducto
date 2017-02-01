@@ -1,0 +1,169 @@
+[Root]
+Most Recent Package=Instalar
+
+[Package|Instalar|Actualización de catastro de usuarios de acueducto, alcantarillado y aseo]
+Icon1=ENCUESTA.exe
+Title1=Actualización de catastro de usuarios de acueducto, alcantarillado y aseo
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Instalar|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\encuesta\
+
+[Package|Instalar|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=Yes
+Exchange=Yes
+Text=Yes
+Paradox=Yes
+Excel=Yes
+Xbase=Yes
+Jet 2.x=Yes
+
+[Package|Instalar|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Instalar|Files Found]
+
+[Package|Instalar|Files Released]
+
+[Package|Instalar|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=
+
+[Package|Instalar|Out-of-Date Dependency Information]
+
+[Package|Instalar|Files Added]
+d:\encuestas\proyecto\encuesta.mdb=
+d:\encuestas\proyecto\encuesta1.mdb=
+
+[Package|Instalar|Files Removed]
+
+[Package|Instalar|Files In Project]
+D:\ENCUESTAS\PROYECTO\ENCUESTA.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=Yes
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM\DBGRDES.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\FLXGDES.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCTLES.DLL=Yes
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSLTUS35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM\RDO20ES.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPDOX35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSXBSE35.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\ENCUESTAS\PROYECTO\ENCUESTA.mdb=Yes
+D:\ENCUESTAS\PROYECTO\ENCUESTA1.mdb=Yes
+
+[Package|Instalar|Configure Registry Files]
+Applicable=No
+
+[Package|Instalar|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalar|Install Locations]
+D:\ENCUESTAS\PROYECTO\ENCUESTA.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBGRDES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\FLXGDES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCTLES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDO20ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\ENCUESTAS\PROYECTO\ENCUESTA.mdb=$(AppPath)
+D:\ENCUESTAS\PROYECTO\ENCUESTA1.mdb=$(AppPath)
+
+[Package|Instalar|Configure Shared Files]
+Applicable=Yes
+D:\ENCUESTAS\PROYECTO\ENCUESTA.exe=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\ENCUESTAS\PROYECTO\ENCUESTA.mdb=Yes
+D:\ENCUESTAS\PROYECTO\ENCUESTA1.mdb=Yes
+
+[Package|Instalar|Distribution]
+Type=single
+Size=
+Title=Servicios Públicos Ubaté
+
+[Package|Instalar|IconGroups]
+Group0=Servicios Públicos
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Instalar|Servicios Públicos]
+Icon1=ENCUESTA.exe
+Title1=Servicios Publicos
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Instalar|Package]
+PackageFolder=c:\encuesta\
+ProjectFolder=D:\ENCUESTAS\PROYECTO
+ServerSideCab=
+File1=c:\encuesta\setup.exe
+File2=c:\encuesta\Setup.Lst
+File3=c:\encuesta\ENCUESTA.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
